@@ -16,8 +16,11 @@ module.exports = class extends Language {
          COMMAND_ERROR: `${message.member}, Something Went Wrong Please Try Again...`,
          INHIBITOR_NSFW: "NSFW Commands Are Disabled In Non-NSFW Channels...",
          INHIBITOR_PERMISSIONS: "You Do Not Have Permission To Use This Command",
-         EVENT_READY: `Logged In As ${client.user.tag}!`
-         // More Locale Responses Coming Soon!
+         EVENT_READY: `Logged In As ${client.user.tag}!`,
+         EVENT_WARN: '[WARN] Please Debug Your Code...',
+         COMMAND_HELP: 'Locale For This Module Is Currently Disabled',
+         COMMAND_SUPPORT: `${message.member} Thank You For Opening A Support Ticket!`,   
+         COMMAND_GITHUB: `Command Currently Disabled`
         };
     }
 
