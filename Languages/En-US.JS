@@ -14,10 +14,13 @@ module.exports = class extends Language {
          COMMAND_HELP_DM_ERR: `${message.member}, I Am Sorry But You Have Direct Messages Disabled...`,
          DEFAULT_PREFIX: `${message.member}, My Default Prefix Is ${prefix}`,
          COMMAND_ERROR: `${message.member}, Something Went Wrong Please Try Again...`,
-         INHIBITOR_NSFW: "NSFW Commands Are Disabled In Non-NSFW Channels...",
+         INHIBITOR_NSFW: "NSFW Commands Are Disabled In Non-NSFW Channels... Please Use Them In A NSFW Channel :)",
          INHIBITOR_PERMISSIONS: "You Do Not Have Permission To Use This Command",
-         EVENT_READY: `Logged In As ${client.user.tag}!`
-         // More Locale Responses Coming Soon!
+         EVENT_READY: `Logged In As ${client.user.tag}!`,
+         EVENT_MESSAGE: `Event 'Message' Doesn't Have A Locale Yet...`,
+         COMMAND_REBOOT: `${message.member}, I Am Shutting Down...`,
+         COMMAND_PREFIX: `Hoi, My Default Prefix Is ${prefix}!`,
+         COMMAND_ERROR: `${message.member}, Sorry But Something Went Wrong Please Try Again Later...`    
         };
     }
 
