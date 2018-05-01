@@ -24,7 +24,8 @@ module.exports = class extends Language {
          COMMAND_ERROR: `${message.member}, Sorry But Something Went Wrong Please Try Again Later...`,
          COMMAND_LEVEL: `${message.member}, You Are A Level ${level}!`,
          COMMAND_LEADERBOARD: `This Feature Is Currently Disabled, Please Use ?Help To See All My Enabled Commands!`,
-         COMMAND_HANDLER_LOAD: `I Have Loaded A Total Of ${command.keys}!`   
+         COMMAND_HANDLER_LOAD: `I Have Loaded A Total Of ${command.keys}!`,
+         TOGAMI_ERROR: `Sorry, Something Went Wrong With Togami-Command-Loader Please Try Again Later...`, 
         };
     }
 
