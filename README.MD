@@ -18,5 +18,9 @@ Moon Is A Discord Bot Coded In Discord.JS With Many Features Such As Moderation,
  
  # Other Links
  > Coming Soon
+ 
+ # Contributors 
+ - Rynent
+ - TogamiCookiie
 
 
