@@ -1,5 +1,6 @@
 const { Language, util} = require("klasa");
 const { member, message, client } = require('discord.js');
+const { command, keys } = require('togami-command-loader');
 const prefix = ['?'];
 module.exports = class extends Language {
 
@@ -21,8 +22,9 @@ module.exports = class extends Language {
          COMMAND_REBOOT: `${message.member}, I Am Shutting Down...`,
          COMMAND_PREFIX: `Hoi, My Default Prefix Is ${prefix}!`,
          COMMAND_ERROR: `${message.member}, Sorry But Something Went Wrong Please Try Again Later...`,
-         COMMAND_LEVELUP: `${message.member}, You Are A Level ${level}!`,
-         COMMAND_LEADERBOARD: `This Feature Is Currently Disabled, Please Use ?Help To See All My Enabled Commands!`
+         COMMAND_LEVEL: `${message.member}, You Are A Level ${level}!`,
+         COMMAND_LEADERBOARD: `This Feature Is Currently Disabled, Please Use ?Help To See All My Enabled Commands!`,
+         COMMAND_HANDLER_LOAD: `I Have Loaded A Total Of ${command.keys}!`   
         };
     }
 
