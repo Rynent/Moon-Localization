@@ -20,7 +20,9 @@ module.exports = class extends Language {
          EVENT_MESSAGE: `Event 'Message' Doesn't Have A Locale Yet...`,
          COMMAND_REBOOT: `${message.member}, I Am Shutting Down...`,
          COMMAND_PREFIX: `Hoi, My Default Prefix Is ${prefix}!`,
-         COMMAND_ERROR: `${message.member}, Sorry But Something Went Wrong Please Try Again Later...`    
+         COMMAND_ERROR: `${message.member}, Sorry But Something Went Wrong Please Try Again Later...`,
+         COMMAND_LEVELUP: `${message.member}, You Are A Level ${level}!`,
+         COMMAND_LEADERBOARD: `This Feature Is Currently Disabled, Please Use ?Help To See All My Enabled Commands!`
         };
     }
 
