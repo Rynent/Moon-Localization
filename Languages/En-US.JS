@@ -2,6 +2,7 @@ const { Language, util} = require("klasa");
 const { member, message, client } = require('discord.js');
 const { command, keys } = require('togami-command-loader');
 const prefix = ['?'];
+const newprefix = [`${newprefix}`];
 module.exports = class extends Language {
 
     constructor(...args) {
@@ -26,6 +27,7 @@ module.exports = class extends Language {
          COMMAND_LEADERBOARD: `This Feature Is Currently Disabled, Please Use ?Help To See All My Enabled Commands!`,
          COMMAND_HANDLER_LOAD: `I Have Loaded A Total Of ${command.keys}!`,
          TOGAMI_ERROR: `Sorry, Something Went Wrong With Togami-Command-Loader Please Try Again Later...`, 
+         COMMAND_PREFIX_UPDATE: `UPDATED SERVER PREFIX TO ${newprefix} | Command Example: ${newprefix}Ping`,
         };
     }
 
